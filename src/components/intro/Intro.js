@@ -19,7 +19,7 @@ export default function Intro() {
           <h1>Shivam Nanda</h1>
           <h3>
           <Typical
-        steps={['Programmer', 1000, 'Developer', 1000,'Student',1000,'Chess Enthusiast',1000]}
+        steps={['Programmer', 1000, 'Developer', 1500,'Student',2000,'Chess Enthusiast',2500]}
         loop={Infinity}
         wrapper="p"
             />
