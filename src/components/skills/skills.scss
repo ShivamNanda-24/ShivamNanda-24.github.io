@@ -1,0 +1,124 @@
+@import "../../global.scss";
+.skills{
+    background-color: white;
+    display: flex;
+    overflow: hidden; 
+    touch-action: none;
+    -ms-touch-action: none;
+    @include mobile{
+      flex-direction:column;
+
+
+    }
+
+    .right{
+        flex: 0.3;
+        overflow: hidden;
+        margin-left: -1000px;
+        width: 50%;
+        height: 90%;
+
+        @include mobile{
+          flex: 0;
+        }
+    
+        img {
+          flex:1;
+          width: 100%;
+          height: 100%;
+
+          a {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+        
+            img {
+              width: 30px;
+              animation: arrowBlink 2s infinite;
+            }
+        
+            @keyframes arrowBlink {
+              100% {
+                opacity: 0;
+              }
+            }
+          }
+    }
+
+}
+.left {
+
+  touch-action: none;
+  -ms-touch-action: none;
+  flex:0.8;
+  display: flex;
+  flex-direction: column;
+  
+  @include mobile{
+    flex: 1;
+  }
+
+  h2 {
+    margin-top: 0px;
+    color: $mainColor;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    overflow: hidden;
+
+    @include mobile{
+      margin-left: 180px;
+      align-items: center;
+      font-size: 40px;
+    }
+  }
+  .skill-section{
+    touch-action: none;
+    -ms-touch-action: none;
+    overflow: hidden;
+    display: flex;
+    justify-content:baseline;
+    margin-right: -30px;
+    position: fixed;
+    align-items: center;
+    justify-content:center;
+    
+    
+    @include mobile{
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+  }
+  .skills-section-title{
+    color: $mainColor;
+    text-decoration: underline;
+    font-size: 20px;
+
+    font-weight: 600;
+    margin-left: 30px;
+    overflow: hidden;
+
+  }
+  .skills-list{
+    overflow-y: hidden;
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    max-width: 80%;
+    margin-left: 30px;
+   
+    
+
+    @include mobile{
+      margin-bottom: -20px;
+      overflow: hidden;
+    }
+    
+    
+  }
+
+}
+
+}
