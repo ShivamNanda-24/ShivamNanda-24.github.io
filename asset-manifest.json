@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Shivam242001/website.git/static/css/main.65b3bbd3.css",
-    "main.js": "/Shivam242001/website.git/static/js/main.19a801e1.js",
-    "index.html": "/Shivam242001/website.git/index.html",
-    "main.65b3bbd3.css.map": "/Shivam242001/website.git/static/css/main.65b3bbd3.css.map",
-    "main.19a801e1.js.map": "/Shivam242001/website.git/static/js/main.19a801e1.js.map"
+    "main.css": "/static/css/main.65b3bbd3.css",
+    "main.js": "/static/js/main.19a801e1.js",
+    "index.html": "/index.html",
+    "main.65b3bbd3.css.map": "/static/css/main.65b3bbd3.css.map",
+    "main.19a801e1.js.map": "/static/js/main.19a801e1.js.map"
   },
   "entrypoints": [
     "static/css/main.65b3bbd3.css",
