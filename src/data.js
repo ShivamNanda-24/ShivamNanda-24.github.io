@@ -11,7 +11,7 @@ export const featuredPortfolio = [
       title: "Portfolio Website",
       img:
         "https://media.istockphoto.com/vectors/business-team-working-together-on-web-page-design-people-building-vector-id1265041897?s=612x612",
-      link: "https://Shivam242001.github.io/PortfolioWebsite",
+      link: "https://Shivam242001.github.io",
 
     },
     {
