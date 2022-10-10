@@ -9,8 +9,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
           <div className="itemContainer">
             <Assignment className="icon" />
-            <span>Check out my <a className="resume" href ="https://drive.google.com/file/d/11Tb52BHbY_Jqd8SKa7awv1NLNprSMjcY/view?usp=sharing">resume</a></span>
-          </div>
+            <span>Check out my <a className="resume" href ="https://drive.google.com/file/d/12P_3jUYOrzVTJwtDaTB4EBLPRp-pmAhT/view?usp=sharing">resume</a></span>
+          </div>                                            
         </div>
         <div className="right">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
