@@ -1,28 +1,24 @@
-import Topbar from "./components/topbar/Topbar";
+import { BrowserRouter } from "react-router-dom";
 
-import Intro from "./components/intro/Intro"
-import Portfolio from "./components/portfolio/Portfolio"
-// import Works from "./components/works/Works"
-// import Testimonials from "./components/testimonials/Testimonials"
-import Contact from "./components/contact/Contact"
-import "./App.scss"
-import { useState } from "react";
-import Menu from "./components/menu/Menu";
-import Skills from "./components/skills/skills";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
-function App() {
-  const [menuOpen,setMenuOpen] = useState(false)
+const App = () => {
   return (
-    <div className="app">
-     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <div className="sections">
-       <Intro/>
-       <Skills />
-       <Portfolio/>
-       <Contact/> 
-     </div>
-    </div>
+    <BrowserRouter>
+      <div className='relative z-0 bg-primary'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+          <Navbar />
+          <Hero />
+        </div>
+        <Experience />
+        <Tech />
+        {/* <Works /> */}
+        <div className='relative z-0'>
+          <Contact />
+          <StarsCanvas />
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
